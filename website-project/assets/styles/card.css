@@ -1,0 +1,97 @@
+
+#services {
+  padding: 60px 20px;
+  background-color: #ffffff;
+}
+
+.services-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.services-heading h2 {
+  font-size: 2.2em;
+  color: #222;
+}
+
+.services-heading p {
+  color: #555;
+  font-size: 1em;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #fefefe;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-header img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-header h3 {
+  margin: 15px;
+  font-size: 1.3em;
+  color: #111;
+}
+
+.card-body {
+  padding: 0 15px;
+  flex-grow: 1;
+  font-size: 0.95em;
+  color: #555;
+  line-height: 1.6;
+}
+
+.card-footer {
+  padding: 15px;
+  text-align: center;
+}
+
+.secondary-button {
+  background-color: transparent;
+  color: #333;
+  border: 2px solid #333;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.secondary-button:hover {
+  background-color: #333;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .benefits-container,
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+ 
+
+
